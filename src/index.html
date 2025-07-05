@@ -1,8 +1,119 @@
 <!DOCTYPE html>
 <html>
-  <head> </head>
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
   <body>
-    <h1>Hello World</h1>
+    <header class="header">
+      <img class="logo" src="/logo-dark.svg" alt="Skilled" />
+      <a class="btn btn--dark" href="#">Get Started</a>
+    </header>
+
+    <main class="homepage">
+      <section class="hero">
+        <div class="content">
+          <h1 class="title">Maximize skill, minimize budget</h1>
+          <p class="body">
+            Our modern courses across a range of in-demand skills will give you
+            the knowledge you need to live the life you want.
+          </p>
+          <a class="btn btn--bright" href="#">Get Started</a>
+        </div>
+
+        <img
+          class="img-mobile"
+          src="/image-hero-mobile.png"
+          alt="Course hours: 1,451. Members: 29k"
+        />
+        <img
+          class="img-tablet"
+          src="/image-hero-tablet.png"
+          alt="Course hours: 1,451. Members: 29k"
+        />
+        <img
+          class="img-desktop"
+          src="/image-hero-desktop.png"
+          alt="Course hours: 1,451. Members: 29k"
+        />
+      </section>
+
+      <section class="section section--courses">
+        <ul class="card-grid">
+          <li class="grid-item">
+            <div class="card card--intro">
+              <h2 class="title">Check out our most popular courses!</h2>
+            </div>
+          </li>
+          <li class="grid-item">
+            <article class="card card--course">
+              <img class="icon" src="/icon-animation.svg" alt="" />
+              <h3 class="title">Animation</h3>
+              <p class="desc">
+                Learn the latest animation techniques to create stunning motion
+                design and captivate your audience.
+              </p>
+              <a class="btn btn--text-only">Get Started</a>
+            </article>
+          </li>
+          <li class="grid-item">
+            <article class="card card--course">
+              <img class="icon" src="/icon-design.svg" alt="" />
+              <h3 class="title">Design</h3>
+              <p class="desc">
+                Create beautiful, usable interfaces to help shape the future of
+                how the web looks.
+              </p>
+              <a class="btn btn--text-only">Get Started</a>
+            </article>
+          </li>
+          <li class="grid-item">
+            <article class="card card--course">
+              <img class="icon" src="/icon-animation.svg" alt="" />
+              <h3 class="title">Photography</h3>
+              <p class="desc">
+                Explore critical fundamentals like lighting, composition, and
+                focus to capture exceptional photos.
+              </p>
+              <a class="btn btn--text-only">Get Started</a>
+            </article>
+          </li>
+          <li class="grid-item">
+            <article class="card card--course">
+              <img class="icon" src="/icon-animation.svg" alt="" />
+              <h3 class="title">Crypto</h3>
+              <p class="desc">
+                All you need to know to get started investing in crypto. Go from
+                beginner to advanced with this 54 hour course.
+              </p>
+              <a class="btn btn--text-only">Get Started</a>
+            </article>
+          </li>
+          <li class="grid-item">
+            <article class="card card--course">
+              <img class="icon" src="/icon-animation.svg" alt="" />
+              <h3 class="title">Business</h3>
+              <p class="desc">
+                A step-by-step playbook to help you start, scale, and sustain
+                your business without outside investment.
+              </p>
+              <a class="btn btn--text-only">Get Started</a>
+            </article>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <img class="logo" src="/logo-light.svg" alt="" />
+      <a class="btn btn--gradient-2" href="#">Get Started</a>
+    </footer>
   </body>
 </html>
