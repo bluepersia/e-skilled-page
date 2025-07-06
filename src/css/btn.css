@@ -7,6 +7,7 @@
     background-color: #13183F;
     border-radius: 1.75rem;
     display: inline-block;
+    font-weight: bold;
 }
 
 .btn--bright
@@ -19,6 +20,13 @@
 {
     background: linear-gradient(to bottom, #4851FF, #F02AA6);
 }
+
+.btn--text-only 
+{
+    background: none;
+    color: #F74780;
+    padding:0;
+}
 @media(min-width:375px){}
 
 @media(min-width:768px)
@@ -26,6 +34,9 @@
     .btn 
     {
         padding: .62rem 1.5rem;
+    }
+    .btn--text-only {
+        padding: 0;
     }
 }
 
@@ -40,4 +51,7 @@
     {
         padding: 1.1875rem 2rem;
     }
+
+    
+
 }
