@@ -21,12 +21,7 @@
     background: linear-gradient(to bottom, #4851FF, #F02AA6);
 }
 
-.btn--text-only 
-{
-    background: none;
-    color: #F74780;
-    padding:0;
-}
+
 @media(min-width:375px){}
 
 @media(min-width:768px)
@@ -34,9 +29,6 @@
     .btn 
     {
         padding: .62rem 1.5rem;
-    }
-    .btn--text-only {
-        padding: 0;
     }
 }
 
@@ -54,4 +46,11 @@
 
     
 
+}
+
+.btn--text-only 
+{
+    background: none;
+    color: #F74780;
+    padding: min(0rem);
 }
