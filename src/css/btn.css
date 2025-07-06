@@ -1,0 +1,43 @@
+.btn
+{
+    color: white;
+    font-family: inherit;
+    padding: .62rem 1.5rem;
+    text-decoration: none;
+    background-color: #13183F;
+    border-radius: 1.75rem;
+    display: inline-block;
+}
+
+.btn--bright
+{
+    background:linear-gradient(to bottom, #FF6F48, #F02AA6);
+    padding: .93rem 2.31rem;
+}
+
+.btn--gradient-2 
+{
+    background: linear-gradient(to bottom, #4851FF, #F02AA6);
+}
+@media(min-width:375px){}
+
+@media(min-width:768px)
+{
+    .btn 
+    {
+        padding: .62rem 1.5rem;
+    }
+}
+
+@media(min-width: 1200px)
+{
+    .btn 
+    {
+        padding: .875rem 2rem;
+    }
+
+    .btn--bright 
+    {
+        padding: 1.1875rem 2rem;
+    }
+}

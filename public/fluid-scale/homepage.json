@@ -1,0 +1,1465 @@
+{
+  "bps": [
+    375,
+    768,
+    815,
+    1200
+  ],
+  "fluidVariableSelectors": {
+    ".skilled__header": {
+      "__type__": "Map",
+      "value": [
+        [
+          0,
+          {
+            "padding-top": {
+              "selector": ".skilled__header",
+              "minValues": [
+                1
+              ],
+              "maxValues": [
+                1.5
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "padding-top",
+              "isCombo": true,
+              "bpIndex": 0,
+              "nextBp": 768,
+              "nextBpIndex": 1
+            },
+            "padding-bottom": {
+              "selector": ".skilled__header",
+              "minValues": [
+                0
+              ],
+              "maxValues": [
+                1.5
+              ],
+              "minUnits": [
+                "px"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "padding-bottom",
+              "isCombo": true,
+              "bpIndex": 0,
+              "nextBp": 768,
+              "nextBpIndex": 1
+            },
+            "padding-left": {
+              "selector": ".skilled__header",
+              "minValues": [
+                1
+              ],
+              "maxValues": [
+                2.5
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "padding-left",
+              "isCombo": true,
+              "bpIndex": 0,
+              "nextBp": 768,
+              "nextBpIndex": 1
+            },
+            "padding-right": {
+              "selector": ".skilled__header",
+              "minValues": [
+                1
+              ],
+              "maxValues": [
+                2.5
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "padding-right",
+              "isCombo": true,
+              "bpIndex": 0,
+              "nextBp": 768,
+              "nextBpIndex": 1
+            }
+          }
+        ],
+        [
+          1,
+          {
+            "padding-top": {
+              "selector": ".skilled__header",
+              "minValues": [
+                1.5
+              ],
+              "maxValues": [
+                1.87
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "padding-top",
+              "isCombo": true,
+              "bpIndex": 1,
+              "bp": 1,
+              "nextBp": 1200,
+              "nextBpIndex": 3
+            },
+            "padding-bottom": {
+              "selector": ".skilled__header",
+              "minValues": [
+                1.5
+              ],
+              "maxValues": [
+                0
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "px"
+              ],
+              "variableName": "padding-bottom",
+              "isCombo": true,
+              "bpIndex": 1,
+              "bp": 1,
+              "nextBp": 1200,
+              "nextBpIndex": 3
+            },
+            "padding-left": {
+              "selector": ".skilled__header",
+              "minValues": [
+                2.5
+              ],
+              "maxValues": [
+                10.31
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "padding-left",
+              "isCombo": true,
+              "bpIndex": 1,
+              "bp": 1,
+              "nextBp": 1200,
+              "nextBpIndex": 3
+            },
+            "padding-right": {
+              "selector": ".skilled__header",
+              "minValues": [
+                2.5
+              ],
+              "maxValues": [
+                10.31
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "padding-right",
+              "isCombo": true,
+              "bpIndex": 1,
+              "bp": 1,
+              "nextBp": 1200,
+              "nextBpIndex": 3
+            }
+          }
+        ]
+      ]
+    },
+    ".skilled__logo": {
+      "__type__": "Map",
+      "value": [
+        [
+          0,
+          {
+            "width": {
+              "selector": ".skilled__logo",
+              "minValues": [
+                5.56
+              ],
+              "maxValues": [
+                5.56
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "width",
+              "isCombo": true,
+              "bpIndex": 0,
+              "nextBp": 768,
+              "nextBpIndex": 1
+            }
+          }
+        ],
+        [
+          1,
+          {
+            "width": {
+              "selector": ".skilled__logo",
+              "minValues": [
+                5.56
+              ],
+              "maxValues": [
+                7.12
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "width",
+              "isCombo": true,
+              "bpIndex": 1,
+              "bp": 1,
+              "nextBp": 1200,
+              "nextBpIndex": 3
+            }
+          }
+        ]
+      ]
+    },
+    ".skilled__section": {
+      "__type__": "Map",
+      "value": [
+        [
+          0,
+          {
+            "padding-top": {
+              "selector": ".skilled__section",
+              "minValues": [
+                0
+              ],
+              "maxValues": [
+                0
+              ],
+              "minUnits": [
+                "px"
+              ],
+              "maxUnits": [
+                "px"
+              ],
+              "variableName": "padding-top",
+              "isCombo": true,
+              "bpIndex": 0,
+              "nextBp": 768,
+              "nextBpIndex": 1
+            },
+            "padding-bottom": {
+              "selector": ".skilled__section",
+              "minValues": [
+                5
+              ],
+              "maxValues": [
+                5.375
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "padding-bottom",
+              "isCombo": true,
+              "bpIndex": 0,
+              "nextBp": 768,
+              "nextBpIndex": 1
+            },
+            "padding-left": {
+              "selector": ".skilled__section",
+              "minValues": [
+                1
+              ],
+              "maxValues": [
+                2.5
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "padding-left",
+              "isCombo": true,
+              "bpIndex": 0,
+              "nextBp": 768,
+              "nextBpIndex": 1
+            },
+            "padding-right": {
+              "selector": ".skilled__section",
+              "minValues": [
+                1
+              ],
+              "maxValues": [
+                2.5
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "padding-right",
+              "isCombo": true,
+              "bpIndex": 0,
+              "nextBp": 768,
+              "nextBpIndex": 1
+            }
+          }
+        ],
+        [
+          1,
+          {
+            "padding-top": {
+              "selector": ".skilled__section",
+              "minValues": [
+                0
+              ],
+              "maxValues": [
+                0
+              ],
+              "minUnits": [
+                "px"
+              ],
+              "maxUnits": [
+                "px"
+              ],
+              "variableName": "padding-top",
+              "isCombo": true,
+              "bpIndex": 1,
+              "bp": 1,
+              "nextBp": 1200,
+              "nextBpIndex": 3
+            },
+            "padding-bottom": {
+              "selector": ".skilled__section",
+              "minValues": [
+                5.375
+              ],
+              "maxValues": [
+                8.75
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "padding-bottom",
+              "isCombo": true,
+              "bpIndex": 1,
+              "bp": 1,
+              "nextBp": 1200,
+              "nextBpIndex": 3
+            },
+            "padding-left": {
+              "selector": ".skilled__section",
+              "minValues": [
+                2.5
+              ],
+              "maxValues": [
+                10.31
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "padding-left",
+              "isCombo": true,
+              "bpIndex": 1,
+              "bp": 1,
+              "nextBp": 1200,
+              "nextBpIndex": 3
+            },
+            "padding-right": {
+              "selector": ".skilled__section",
+              "minValues": [
+                2.5
+              ],
+              "maxValues": [
+                10.31
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "padding-right",
+              "isCombo": true,
+              "bpIndex": 1,
+              "bp": 1,
+              "nextBp": 1200,
+              "nextBpIndex": 3
+            }
+          }
+        ]
+      ]
+    },
+    ".skilled__footer": {
+      "__type__": "Map",
+      "value": [
+        [
+          0,
+          {
+            "padding-top": {
+              "selector": ".skilled__footer",
+              "minValues": [
+                2.25
+              ],
+              "maxValues": [
+                2
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "padding-top",
+              "isCombo": true,
+              "bpIndex": 0,
+              "nextBp": 768,
+              "nextBpIndex": 1
+            },
+            "padding-bottom": {
+              "selector": ".skilled__footer",
+              "minValues": [
+                2.25
+              ],
+              "maxValues": [
+                2
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "padding-bottom",
+              "isCombo": true,
+              "bpIndex": 0,
+              "nextBp": 768,
+              "nextBpIndex": 1
+            },
+            "padding-left": {
+              "selector": ".skilled__footer",
+              "minValues": [
+                1
+              ],
+              "maxValues": [
+                10
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "padding-left",
+              "isCombo": true,
+              "bpIndex": 0,
+              "nextBp": 768,
+              "nextBpIndex": 1
+            },
+            "padding-right": {
+              "selector": ".skilled__footer",
+              "minValues": [
+                1
+              ],
+              "maxValues": [
+                10
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "padding-right",
+              "isCombo": true,
+              "bpIndex": 0,
+              "nextBp": 768,
+              "nextBpIndex": 1
+            }
+          }
+        ]
+      ]
+    },
+    ".btn": {
+      "__type__": "Map",
+      "value": [
+        [
+          0,
+          {
+            "padding-top": {
+              "selector": ".btn",
+              "minValues": [
+                0.62
+              ],
+              "maxValues": [
+                0.62
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "padding-top",
+              "isCombo": true,
+              "bpIndex": 0,
+              "nextBp": 768,
+              "nextBpIndex": 1
+            },
+            "padding-bottom": {
+              "selector": ".btn",
+              "minValues": [
+                0.62
+              ],
+              "maxValues": [
+                0.62
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "padding-bottom",
+              "isCombo": true,
+              "bpIndex": 0,
+              "nextBp": 768,
+              "nextBpIndex": 1
+            },
+            "padding-left": {
+              "selector": ".btn",
+              "minValues": [
+                1.5
+              ],
+              "maxValues": [
+                1.5
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "padding-left",
+              "isCombo": true,
+              "bpIndex": 0,
+              "nextBp": 768,
+              "nextBpIndex": 1
+            },
+            "padding-right": {
+              "selector": ".btn",
+              "minValues": [
+                1.5
+              ],
+              "maxValues": [
+                1.5
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "padding-right",
+              "isCombo": true,
+              "bpIndex": 0,
+              "nextBp": 768,
+              "nextBpIndex": 1
+            }
+          }
+        ],
+        [
+          1,
+          {
+            "padding-top": {
+              "selector": ".btn",
+              "minValues": [
+                0.62
+              ],
+              "maxValues": [
+                0.875
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "padding-top",
+              "isCombo": true,
+              "bpIndex": 1,
+              "bp": 1,
+              "nextBp": 1200,
+              "nextBpIndex": 3
+            },
+            "padding-bottom": {
+              "selector": ".btn",
+              "minValues": [
+                0.62
+              ],
+              "maxValues": [
+                0.875
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "padding-bottom",
+              "isCombo": true,
+              "bpIndex": 1,
+              "bp": 1,
+              "nextBp": 1200,
+              "nextBpIndex": 3
+            },
+            "padding-left": {
+              "selector": ".btn",
+              "minValues": [
+                1.5
+              ],
+              "maxValues": [
+                2
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "padding-left",
+              "isCombo": true,
+              "bpIndex": 1,
+              "bp": 1,
+              "nextBp": 1200,
+              "nextBpIndex": 3
+            },
+            "padding-right": {
+              "selector": ".btn",
+              "minValues": [
+                1.5
+              ],
+              "maxValues": [
+                2
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "padding-right",
+              "isCombo": true,
+              "bpIndex": 1,
+              "bp": 1,
+              "nextBp": 1200,
+              "nextBpIndex": 3
+            }
+          }
+        ]
+      ]
+    },
+    ".btn--bright": {
+      "__type__": "Map",
+      "value": [
+        [
+          0,
+          {
+            "padding-top": {
+              "selector": ".btn--bright",
+              "minValues": [
+                0.93
+              ],
+              "maxValues": [
+                1.1875
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "padding-top",
+              "isCombo": true,
+              "bpIndex": 0,
+              "nextBp": 1200,
+              "nextBpIndex": 3
+            },
+            "padding-bottom": {
+              "selector": ".btn--bright",
+              "minValues": [
+                0.93
+              ],
+              "maxValues": [
+                1.1875
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "padding-bottom",
+              "isCombo": true,
+              "bpIndex": 0,
+              "nextBp": 1200,
+              "nextBpIndex": 3
+            },
+            "padding-left": {
+              "selector": ".btn--bright",
+              "minValues": [
+                2.31
+              ],
+              "maxValues": [
+                2
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "padding-left",
+              "isCombo": true,
+              "bpIndex": 0,
+              "nextBp": 1200,
+              "nextBpIndex": 3
+            },
+            "padding-right": {
+              "selector": ".btn--bright",
+              "minValues": [
+                2.31
+              ],
+              "maxValues": [
+                2
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "padding-right",
+              "isCombo": true,
+              "bpIndex": 0,
+              "nextBp": 1200,
+              "nextBpIndex": 3
+            }
+          }
+        ]
+      ]
+    },
+    ".hero": {
+      "__type__": "Map",
+      "value": [
+        [
+          0,
+          {
+            "padding-top": {
+              "selector": ".hero",
+              "minValues": [
+                0
+              ],
+              "maxValues": [
+                0
+              ],
+              "minUnits": [
+                "px"
+              ],
+              "maxUnits": [
+                "px"
+              ],
+              "variableName": "padding-top",
+              "isCombo": true,
+              "bpIndex": 0,
+              "nextBp": 768,
+              "nextBpIndex": 1
+            },
+            "padding-bottom": {
+              "selector": ".hero",
+              "minValues": [
+                0
+              ],
+              "maxValues": [
+                0
+              ],
+              "minUnits": [
+                "px"
+              ],
+              "maxUnits": [
+                "px"
+              ],
+              "variableName": "padding-bottom",
+              "isCombo": true,
+              "bpIndex": 0,
+              "nextBp": 768,
+              "nextBpIndex": 1
+            },
+            "padding-left": {
+              "selector": ".hero",
+              "minValues": [
+                1
+              ],
+              "maxValues": [
+                2.5
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "padding-left",
+              "isCombo": true,
+              "bpIndex": 0,
+              "nextBp": 768,
+              "nextBpIndex": 1
+            },
+            "padding-right": {
+              "selector": ".hero",
+              "minValues": [
+                1
+              ],
+              "maxValues": [
+                2.5
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "padding-right",
+              "isCombo": true,
+              "bpIndex": 0,
+              "nextBp": 768,
+              "nextBpIndex": 1
+            }
+          }
+        ],
+        [
+          1,
+          {
+            "padding-top": {
+              "selector": ".hero",
+              "minValues": [
+                0
+              ],
+              "maxValues": [
+                0
+              ],
+              "minUnits": [
+                "px"
+              ],
+              "maxUnits": [
+                "px"
+              ],
+              "variableName": "padding-top",
+              "isCombo": true,
+              "bpIndex": 1,
+              "bp": 1,
+              "nextBp": 1200,
+              "nextBpIndex": 3
+            },
+            "padding-bottom": {
+              "selector": ".hero",
+              "minValues": [
+                0
+              ],
+              "maxValues": [
+                0
+              ],
+              "minUnits": [
+                "px"
+              ],
+              "maxUnits": [
+                "px"
+              ],
+              "variableName": "padding-bottom",
+              "isCombo": true,
+              "bpIndex": 1,
+              "bp": 1,
+              "nextBp": 1200,
+              "nextBpIndex": 3
+            },
+            "padding-left": {
+              "selector": ".hero",
+              "minValues": [
+                2.5
+              ],
+              "maxValues": [
+                10.31
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "padding-left",
+              "isCombo": true,
+              "bpIndex": 1,
+              "bp": 1,
+              "nextBp": 1200,
+              "nextBpIndex": 3
+            },
+            "padding-right": {
+              "selector": ".hero",
+              "minValues": [
+                2.5
+              ],
+              "maxValues": [
+                10.31
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "padding-right",
+              "isCombo": true,
+              "bpIndex": 1,
+              "bp": 1,
+              "nextBp": 1200,
+              "nextBpIndex": 3
+            }
+          }
+        ]
+      ]
+    },
+    ".hero__content": {
+      "__type__": "Map",
+      "value": [
+        [
+          0,
+          {
+            "padding-top": {
+              "selector": ".hero__content",
+              "minValues": [
+                2.375
+              ],
+              "maxValues": [
+                6.18
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "padding-top",
+              "isCombo": true,
+              "bpIndex": 0,
+              "nextBp": 768,
+              "nextBpIndex": 1
+            },
+            "padding-bottom": {
+              "selector": ".hero__content",
+              "minValues": [
+                2.87
+              ],
+              "maxValues": [
+                5.75
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "padding-bottom",
+              "isCombo": true,
+              "bpIndex": 0,
+              "nextBp": 768,
+              "nextBpIndex": 1
+            },
+            "padding-left": {
+              "selector": ".hero__content",
+              "minValues": [
+                0
+              ],
+              "maxValues": [
+                0
+              ],
+              "minUnits": [
+                "px"
+              ],
+              "maxUnits": [
+                "px"
+              ],
+              "variableName": "padding-left",
+              "isCombo": true,
+              "bpIndex": 0,
+              "nextBp": 768,
+              "nextBpIndex": 1
+            },
+            "padding-right": {
+              "selector": ".hero__content",
+              "minValues": [
+                0
+              ],
+              "maxValues": [
+                0
+              ],
+              "minUnits": [
+                "px"
+              ],
+              "maxUnits": [
+                "px"
+              ],
+              "variableName": "padding-right",
+              "isCombo": true,
+              "bpIndex": 0,
+              "nextBp": 768,
+              "nextBpIndex": 1
+            }
+          }
+        ],
+        [
+          1,
+          {
+            "padding-top": {
+              "selector": ".hero__content",
+              "minValues": [
+                6.18
+              ],
+              "maxValues": [
+                10.75
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "padding-top",
+              "isCombo": true,
+              "bpIndex": 1,
+              "bp": 1,
+              "nextBp": 1200,
+              "nextBpIndex": 3
+            },
+            "padding-bottom": {
+              "selector": ".hero__content",
+              "minValues": [
+                5.75
+              ],
+              "maxValues": [
+                11.18
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "padding-bottom",
+              "isCombo": true,
+              "bpIndex": 1,
+              "bp": 1,
+              "nextBp": 1200,
+              "nextBpIndex": 3
+            },
+            "padding-left": {
+              "selector": ".hero__content",
+              "minValues": [
+                0
+              ],
+              "maxValues": [
+                0
+              ],
+              "minUnits": [
+                "px"
+              ],
+              "maxUnits": [
+                "px"
+              ],
+              "variableName": "padding-left",
+              "isCombo": true,
+              "bpIndex": 1,
+              "bp": 1,
+              "nextBp": 1200,
+              "nextBpIndex": 3
+            },
+            "padding-right": {
+              "selector": ".hero__content",
+              "minValues": [
+                0
+              ],
+              "maxValues": [
+                0
+              ],
+              "minUnits": [
+                "px"
+              ],
+              "maxUnits": [
+                "px"
+              ],
+              "variableName": "padding-right",
+              "isCombo": true,
+              "bpIndex": 1,
+              "bp": 1,
+              "nextBp": 1200,
+              "nextBpIndex": 3
+            },
+            "width": {
+              "selector": ".hero__content",
+              "minValues": [
+                24.87
+              ],
+              "maxValues": [
+                28.5
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "width",
+              "isCombo": true,
+              "bpIndex": 1,
+              "bp": 1,
+              "nextBp": 1200,
+              "nextBpIndex": 3
+            }
+          }
+        ]
+      ]
+    },
+    ".hero__title": {
+      "__type__": "Map",
+      "value": [
+        [
+          0,
+          {
+            "margin-bottom": {
+              "selector": ".hero__title",
+              "minValues": [
+                1.62
+              ],
+              "maxValues": [
+                1.62
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "margin-bottom",
+              "isCombo": true,
+              "bpIndex": 0,
+              "nextBp": 768,
+              "nextBpIndex": 1
+            },
+            "font-size": {
+              "selector": ".hero__title",
+              "minValues": [
+                2.5
+              ],
+              "maxValues": [
+                2.5
+              ],
+              "minUnits": [
+                "em"
+              ],
+              "maxUnits": [
+                "em"
+              ],
+              "variableName": "font-size",
+              "isCombo": true,
+              "bpIndex": 0,
+              "nextBp": 768,
+              "nextBpIndex": 1
+            }
+          }
+        ],
+        [
+          1,
+          {
+            "margin-bottom": {
+              "selector": ".hero__title",
+              "minValues": [
+                1.62
+              ],
+              "maxValues": [
+                1.8125
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "margin-bottom",
+              "isCombo": true,
+              "bpIndex": 1,
+              "bp": 1,
+              "nextBp": 1200,
+              "nextBpIndex": 3
+            },
+            "font-size": {
+              "selector": ".hero__title",
+              "minValues": [
+                2.5
+              ],
+              "maxValues": [
+                3.5
+              ],
+              "minUnits": [
+                "em"
+              ],
+              "maxUnits": [
+                "em"
+              ],
+              "variableName": "font-size",
+              "isCombo": true,
+              "bpIndex": 1,
+              "bp": 1,
+              "nextBp": 1200,
+              "nextBpIndex": 3
+            }
+          }
+        ]
+      ]
+    },
+    ".hero__body": {
+      "__type__": "Map",
+      "value": [
+        [
+          0,
+          {
+            "margin-bottom": {
+              "selector": ".hero__body",
+              "minValues": [
+                1.5
+              ],
+              "maxValues": [
+                1.5
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "margin-bottom",
+              "isCombo": true,
+              "bpIndex": 0,
+              "nextBp": 768,
+              "nextBpIndex": 1
+            }
+          }
+        ],
+        [
+          1,
+          {
+            "margin-bottom": {
+              "selector": ".hero__body",
+              "minValues": [
+                1.5
+              ],
+              "maxValues": [
+                2.5
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "margin-bottom",
+              "isCombo": true,
+              "bpIndex": 1,
+              "bp": 1,
+              "nextBp": 1200,
+              "nextBpIndex": 3
+            }
+          }
+        ]
+      ]
+    },
+    ".card-grid": {
+      "__type__": "Map",
+      "value": [
+        [
+          0,
+          {
+            "column-gap": {
+              "selector": ".card-grid",
+              "minValues": [
+                0.68
+              ],
+              "maxValues": [
+                0.68
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "column-gap",
+              "isCombo": true,
+              "bpIndex": 0,
+              "nextBp": 768,
+              "nextBpIndex": 1
+            },
+            "row-gap": {
+              "selector": ".card-grid",
+              "minValues": [
+                2.5
+              ],
+              "maxValues": [
+                3.5
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "row-gap",
+              "isCombo": true,
+              "bpIndex": 0,
+              "nextBp": 768,
+              "nextBpIndex": 1
+            },
+            "grid-auto-fit": {
+              "selector": ".card-grid",
+              "minValues": [
+                21.43
+              ],
+              "maxValues": [
+                21.18
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "grid-auto-fit",
+              "isCombo": true,
+              "bpIndex": 0,
+              "nextBp": 768,
+              "nextBpIndex": 1
+            }
+          }
+        ],
+        [
+          1,
+          {
+            "column-gap": {
+              "selector": ".card-grid",
+              "minValues": [
+                0.68
+              ],
+              "maxValues": [
+                1.875
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "column-gap",
+              "isCombo": true,
+              "bpIndex": 1,
+              "bp": 1,
+              "nextBp": 1200,
+              "nextBpIndex": 3
+            },
+            "row-gap": {
+              "selector": ".card-grid",
+              "minValues": [
+                3.5
+              ],
+              "maxValues": [
+                3.75
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "row-gap",
+              "isCombo": true,
+              "bpIndex": 1,
+              "bp": 1,
+              "nextBp": 1200,
+              "nextBpIndex": 3
+            },
+            "grid-auto-fit": {
+              "selector": ".card-grid",
+              "minValues": [
+                21.18
+              ],
+              "maxValues": [
+                [
+                  "min",
+                  [
+                    21.8,
+                    49.3
+                  ]
+                ]
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                [
+                  "",
+                  [
+                    "rem",
+                    "%"
+                  ]
+                ]
+              ],
+              "variableName": "grid-auto-fit",
+              "isCombo": true,
+              "bpIndex": 1,
+              "bp": 1,
+              "nextBp": 1200,
+              "nextBpIndex": 3
+            }
+          }
+        ]
+      ]
+    }
+  }
+}

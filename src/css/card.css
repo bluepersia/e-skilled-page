@@ -1,0 +1,41 @@
+.card 
+{
+    font-size: 1rem;
+    padding: 0 1.875rem 1.875rem;
+    background-color: white;
+}
+.title 
+{
+    font-size: 1.25em;
+    color: #13183F;
+    margin-bottom: 1rem;
+}
+.card--intro
+{
+    background: linear-gradient(to bottom, #FF6F48, #F02AA6);
+   
+    border-radius: .62rem;
+    padding: 1.5rem 1.75rem 2rem;
+}
+
+.card--intro .title 
+{
+    font-size:1.5rem; 
+    color:white;
+    margin: 0;
+}
+
+.icon 
+{
+    width: 3.5rem;
+    margin-top: -1.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.desc 
+{
+    color: #83869A;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
