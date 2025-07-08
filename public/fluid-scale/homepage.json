@@ -2,7 +2,7 @@
   "bps": [
     375,
     768,
-    815,
+    811,
     1200
   ],
   "fluidVariableSelectors": {
@@ -27,6 +27,7 @@
                 "rem"
               ],
               "variableName": "padding-top",
+              "order": 4,
               "isCombo": true,
               "bpIndex": 0,
               "nextBp": 768,
@@ -47,6 +48,7 @@
                 "rem"
               ],
               "variableName": "padding-bottom",
+              "order": 4,
               "isCombo": true,
               "bpIndex": 0,
               "nextBp": 768,
@@ -67,6 +69,7 @@
                 "rem"
               ],
               "variableName": "padding-left",
+              "order": 4,
               "isCombo": true,
               "bpIndex": 0,
               "nextBp": 768,
@@ -87,6 +90,7 @@
                 "rem"
               ],
               "variableName": "padding-right",
+              "order": 4,
               "isCombo": true,
               "bpIndex": 0,
               "nextBp": 768,
@@ -112,6 +116,7 @@
                 "rem"
               ],
               "variableName": "padding-top",
+              "order": 8,
               "isCombo": true,
               "bpIndex": 1,
               "bp": 1,
@@ -133,6 +138,7 @@
                 "px"
               ],
               "variableName": "padding-bottom",
+              "order": 8,
               "isCombo": true,
               "bpIndex": 1,
               "bp": 1,
@@ -154,6 +160,7 @@
                 "rem"
               ],
               "variableName": "padding-left",
+              "order": 8,
               "isCombo": true,
               "bpIndex": 1,
               "bp": 1,
@@ -175,6 +182,7 @@
                 "rem"
               ],
               "variableName": "padding-right",
+              "order": 8,
               "isCombo": true,
               "bpIndex": 1,
               "bp": 1,
@@ -206,6 +214,7 @@
                 "rem"
               ],
               "variableName": "width",
+              "order": 5,
               "isCombo": true,
               "bpIndex": 0,
               "nextBp": 768,
@@ -231,6 +240,7 @@
                 "rem"
               ],
               "variableName": "width",
+              "order": 9,
               "isCombo": true,
               "bpIndex": 1,
               "bp": 1,
@@ -262,6 +272,7 @@
                 "px"
               ],
               "variableName": "padding-top",
+              "order": 6,
               "isCombo": true,
               "bpIndex": 0,
               "nextBp": 768,
@@ -282,6 +293,7 @@
                 "rem"
               ],
               "variableName": "padding-bottom",
+              "order": 6,
               "isCombo": true,
               "bpIndex": 0,
               "nextBp": 768,
@@ -302,6 +314,7 @@
                 "rem"
               ],
               "variableName": "padding-left",
+              "order": 6,
               "isCombo": true,
               "bpIndex": 0,
               "nextBp": 768,
@@ -322,6 +335,7 @@
                 "rem"
               ],
               "variableName": "padding-right",
+              "order": 6,
               "isCombo": true,
               "bpIndex": 0,
               "nextBp": 768,
@@ -347,6 +361,7 @@
                 "px"
               ],
               "variableName": "padding-top",
+              "order": 10,
               "isCombo": true,
               "bpIndex": 1,
               "bp": 1,
@@ -368,6 +383,7 @@
                 "rem"
               ],
               "variableName": "padding-bottom",
+              "order": 10,
               "isCombo": true,
               "bpIndex": 1,
               "bp": 1,
@@ -389,6 +405,7 @@
                 "rem"
               ],
               "variableName": "padding-left",
+              "order": 10,
               "isCombo": true,
               "bpIndex": 1,
               "bp": 1,
@@ -410,6 +427,7 @@
                 "rem"
               ],
               "variableName": "padding-right",
+              "order": 10,
               "isCombo": true,
               "bpIndex": 1,
               "bp": 1,
@@ -441,6 +459,7 @@
                 "rem"
               ],
               "variableName": "padding-top",
+              "order": 7,
               "isCombo": true,
               "bpIndex": 0,
               "nextBp": 768,
@@ -461,6 +480,7 @@
                 "rem"
               ],
               "variableName": "padding-bottom",
+              "order": 7,
               "isCombo": true,
               "bpIndex": 0,
               "nextBp": 768,
@@ -472,7 +492,7 @@
                 1
               ],
               "maxValues": [
-                10
+                2.5
               ],
               "minUnits": [
                 "rem"
@@ -481,6 +501,7 @@
                 "rem"
               ],
               "variableName": "padding-left",
+              "order": 7,
               "isCombo": true,
               "bpIndex": 0,
               "nextBp": 768,
@@ -492,7 +513,7 @@
                 1
               ],
               "maxValues": [
-                10
+                2.5
               ],
               "minUnits": [
                 "rem"
@@ -501,10 +522,104 @@
                 "rem"
               ],
               "variableName": "padding-right",
+              "order": 7,
               "isCombo": true,
               "bpIndex": 0,
               "nextBp": 768,
               "nextBpIndex": 1
+            }
+          }
+        ],
+        [
+          1,
+          {
+            "padding-top": {
+              "selector": ".skilled__footer",
+              "minValues": [
+                2
+              ],
+              "maxValues": [
+                2
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "padding-top",
+              "order": 11,
+              "isCombo": true,
+              "bpIndex": 1,
+              "bp": 1,
+              "nextBp": 1200,
+              "nextBpIndex": 3
+            },
+            "padding-bottom": {
+              "selector": ".skilled__footer",
+              "minValues": [
+                2
+              ],
+              "maxValues": [
+                2
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "padding-bottom",
+              "order": 11,
+              "isCombo": true,
+              "bpIndex": 1,
+              "bp": 1,
+              "nextBp": 1200,
+              "nextBpIndex": 3
+            },
+            "padding-left": {
+              "selector": ".skilled__footer",
+              "minValues": [
+                2.5
+              ],
+              "maxValues": [
+                10.31
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "padding-left",
+              "order": 11,
+              "isCombo": true,
+              "bpIndex": 1,
+              "bp": 1,
+              "nextBp": 1200,
+              "nextBpIndex": 3
+            },
+            "padding-right": {
+              "selector": ".skilled__footer",
+              "minValues": [
+                2.5
+              ],
+              "maxValues": [
+                10.31
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "padding-right",
+              "order": 11,
+              "isCombo": true,
+              "bpIndex": 1,
+              "bp": 1,
+              "nextBp": 1200,
+              "nextBpIndex": 3
             }
           }
         ]
@@ -531,6 +646,7 @@
                 "rem"
               ],
               "variableName": "padding-top",
+              "order": 16,
               "isCombo": true,
               "bpIndex": 0,
               "nextBp": 768,
@@ -551,6 +667,7 @@
                 "rem"
               ],
               "variableName": "padding-bottom",
+              "order": 16,
               "isCombo": true,
               "bpIndex": 0,
               "nextBp": 768,
@@ -571,6 +688,7 @@
                 "rem"
               ],
               "variableName": "padding-left",
+              "order": 16,
               "isCombo": true,
               "bpIndex": 0,
               "nextBp": 768,
@@ -591,6 +709,7 @@
                 "rem"
               ],
               "variableName": "padding-right",
+              "order": 16,
               "isCombo": true,
               "bpIndex": 0,
               "nextBp": 768,
@@ -616,6 +735,7 @@
                 "rem"
               ],
               "variableName": "padding-top",
+              "order": 19,
               "isCombo": true,
               "bpIndex": 1,
               "bp": 1,
@@ -637,6 +757,7 @@
                 "rem"
               ],
               "variableName": "padding-bottom",
+              "order": 19,
               "isCombo": true,
               "bpIndex": 1,
               "bp": 1,
@@ -658,6 +779,7 @@
                 "rem"
               ],
               "variableName": "padding-left",
+              "order": 19,
               "isCombo": true,
               "bpIndex": 1,
               "bp": 1,
@@ -679,6 +801,7 @@
                 "rem"
               ],
               "variableName": "padding-right",
+              "order": 19,
               "isCombo": true,
               "bpIndex": 1,
               "bp": 1,
@@ -710,6 +833,7 @@
                 "rem"
               ],
               "variableName": "padding-top",
+              "order": 17,
               "isCombo": true,
               "bpIndex": 0,
               "nextBp": 1200,
@@ -730,6 +854,7 @@
                 "rem"
               ],
               "variableName": "padding-bottom",
+              "order": 17,
               "isCombo": true,
               "bpIndex": 0,
               "nextBp": 1200,
@@ -750,6 +875,7 @@
                 "rem"
               ],
               "variableName": "padding-left",
+              "order": 17,
               "isCombo": true,
               "bpIndex": 0,
               "nextBp": 1200,
@@ -770,6 +896,101 @@
                 "rem"
               ],
               "variableName": "padding-right",
+              "order": 17,
+              "isCombo": true,
+              "bpIndex": 0,
+              "nextBp": 1200,
+              "nextBpIndex": 3
+            }
+          }
+        ]
+      ]
+    },
+    ".btn--text-only": {
+      "__type__": "Map",
+      "value": [
+        [
+          0,
+          {
+            "padding-top": {
+              "selector": ".btn--text-only",
+              "minValues": [
+                0
+              ],
+              "maxValues": [
+                0
+              ],
+              "minUnits": [
+                "px"
+              ],
+              "maxUnits": [
+                "px"
+              ],
+              "variableName": "padding-top",
+              "order": 22,
+              "isCombo": true,
+              "bpIndex": 0,
+              "nextBp": 1200,
+              "nextBpIndex": 3
+            },
+            "padding-bottom": {
+              "selector": ".btn--text-only",
+              "minValues": [
+                0
+              ],
+              "maxValues": [
+                0
+              ],
+              "minUnits": [
+                "px"
+              ],
+              "maxUnits": [
+                "px"
+              ],
+              "variableName": "padding-bottom",
+              "order": 22,
+              "isCombo": true,
+              "bpIndex": 0,
+              "nextBp": 1200,
+              "nextBpIndex": 3
+            },
+            "padding-left": {
+              "selector": ".btn--text-only",
+              "minValues": [
+                0
+              ],
+              "maxValues": [
+                0
+              ],
+              "minUnits": [
+                "px"
+              ],
+              "maxUnits": [
+                "px"
+              ],
+              "variableName": "padding-left",
+              "order": 22,
+              "isCombo": true,
+              "bpIndex": 0,
+              "nextBp": 1200,
+              "nextBpIndex": 3
+            },
+            "padding-right": {
+              "selector": ".btn--text-only",
+              "minValues": [
+                0
+              ],
+              "maxValues": [
+                0
+              ],
+              "minUnits": [
+                "px"
+              ],
+              "maxUnits": [
+                "px"
+              ],
+              "variableName": "padding-right",
+              "order": 22,
               "isCombo": true,
               "bpIndex": 0,
               "nextBp": 1200,
@@ -800,6 +1021,7 @@
                 "px"
               ],
               "variableName": "padding-top",
+              "order": 23,
               "isCombo": true,
               "bpIndex": 0,
               "nextBp": 768,
@@ -820,6 +1042,7 @@
                 "px"
               ],
               "variableName": "padding-bottom",
+              "order": 23,
               "isCombo": true,
               "bpIndex": 0,
               "nextBp": 768,
@@ -840,6 +1063,7 @@
                 "rem"
               ],
               "variableName": "padding-left",
+              "order": 23,
               "isCombo": true,
               "bpIndex": 0,
               "nextBp": 768,
@@ -860,6 +1084,7 @@
                 "rem"
               ],
               "variableName": "padding-right",
+              "order": 23,
               "isCombo": true,
               "bpIndex": 0,
               "nextBp": 768,
@@ -885,6 +1110,7 @@
                 "px"
               ],
               "variableName": "padding-top",
+              "order": 30,
               "isCombo": true,
               "bpIndex": 1,
               "bp": 1,
@@ -906,6 +1132,7 @@
                 "px"
               ],
               "variableName": "padding-bottom",
+              "order": 30,
               "isCombo": true,
               "bpIndex": 1,
               "bp": 1,
@@ -927,6 +1154,7 @@
                 "rem"
               ],
               "variableName": "padding-left",
+              "order": 30,
               "isCombo": true,
               "bpIndex": 1,
               "bp": 1,
@@ -948,6 +1176,7 @@
                 "rem"
               ],
               "variableName": "padding-right",
+              "order": 30,
               "isCombo": true,
               "bpIndex": 1,
               "bp": 1,
@@ -979,6 +1208,7 @@
                 "rem"
               ],
               "variableName": "padding-top",
+              "order": 24,
               "isCombo": true,
               "bpIndex": 0,
               "nextBp": 768,
@@ -999,6 +1229,7 @@
                 "rem"
               ],
               "variableName": "padding-bottom",
+              "order": 24,
               "isCombo": true,
               "bpIndex": 0,
               "nextBp": 768,
@@ -1019,6 +1250,7 @@
                 "px"
               ],
               "variableName": "padding-left",
+              "order": 24,
               "isCombo": true,
               "bpIndex": 0,
               "nextBp": 768,
@@ -1039,6 +1271,7 @@
                 "px"
               ],
               "variableName": "padding-right",
+              "order": 24,
               "isCombo": true,
               "bpIndex": 0,
               "nextBp": 768,
@@ -1064,6 +1297,7 @@
                 "rem"
               ],
               "variableName": "padding-top",
+              "order": 31,
               "isCombo": true,
               "bpIndex": 1,
               "bp": 1,
@@ -1085,6 +1319,7 @@
                 "rem"
               ],
               "variableName": "padding-bottom",
+              "order": 31,
               "isCombo": true,
               "bpIndex": 1,
               "bp": 1,
@@ -1106,6 +1341,7 @@
                 "px"
               ],
               "variableName": "padding-left",
+              "order": 31,
               "isCombo": true,
               "bpIndex": 1,
               "bp": 1,
@@ -1127,6 +1363,7 @@
                 "px"
               ],
               "variableName": "padding-right",
+              "order": 31,
               "isCombo": true,
               "bpIndex": 1,
               "bp": 1,
@@ -1148,6 +1385,7 @@
                 "rem"
               ],
               "variableName": "width",
+              "order": 31,
               "isCombo": true,
               "bpIndex": 1,
               "bp": 1,
@@ -1170,7 +1408,7 @@
                 1.62
               ],
               "maxValues": [
-                1.62
+                1.8125
               ],
               "minUnits": [
                 "rem"
@@ -1179,10 +1417,11 @@
                 "rem"
               ],
               "variableName": "margin-bottom",
+              "order": 25,
               "isCombo": true,
               "bpIndex": 0,
-              "nextBp": 768,
-              "nextBpIndex": 1
+              "nextBp": 1200,
+              "nextBpIndex": 3
             },
             "font-size": {
               "selector": ".hero__title",
@@ -1199,6 +1438,7 @@
                 "em"
               ],
               "variableName": "font-size",
+              "order": 25,
               "isCombo": true,
               "bpIndex": 0,
               "nextBp": 768,
@@ -1209,27 +1449,6 @@
         [
           1,
           {
-            "margin-bottom": {
-              "selector": ".hero__title",
-              "minValues": [
-                1.62
-              ],
-              "maxValues": [
-                1.8125
-              ],
-              "minUnits": [
-                "rem"
-              ],
-              "maxUnits": [
-                "rem"
-              ],
-              "variableName": "margin-bottom",
-              "isCombo": true,
-              "bpIndex": 1,
-              "bp": 1,
-              "nextBp": 1200,
-              "nextBpIndex": 3
-            },
             "font-size": {
               "selector": ".hero__title",
               "minValues": [
@@ -1245,6 +1464,7 @@
                 "em"
               ],
               "variableName": "font-size",
+              "order": 34,
               "isCombo": true,
               "bpIndex": 1,
               "bp": 1,
@@ -1276,6 +1496,7 @@
                 "rem"
               ],
               "variableName": "margin-bottom",
+              "order": 26,
               "isCombo": true,
               "bpIndex": 0,
               "nextBp": 768,
@@ -1301,11 +1522,47 @@
                 "rem"
               ],
               "variableName": "margin-bottom",
+              "order": 35,
               "isCombo": true,
               "bpIndex": 1,
               "bp": 1,
               "nextBp": 1200,
               "nextBpIndex": 3
+            }
+          }
+        ]
+      ]
+    },
+    ".hero__title/.hero__title--light[data-test=\"test\"]": {
+      "__type__": "Map",
+      "value": [
+        [
+          0,
+          {
+            "font-size": {
+              "selector": ".hero__title--light[data-test=\"test\"]",
+              "minValues": [
+                4
+              ],
+              "maxValues": [
+                4
+              ],
+              "minUnits": [
+                "em"
+              ],
+              "maxUnits": [
+                "em"
+              ],
+              "variableName": "font-size",
+              "order": 29,
+              "isCombo": true,
+              "bpIndex": 0,
+              "nextBp": 1200,
+              "nextBpIndex": 3,
+              "dynamic": ".hero__title--light[data-test=\"test\"]",
+              "attribs": [
+                ""
+              ]
             }
           }
         ]
@@ -1332,6 +1589,7 @@
                 "rem"
               ],
               "variableName": "column-gap",
+              "order": 42,
               "isCombo": true,
               "bpIndex": 0,
               "nextBp": 768,
@@ -1352,6 +1610,7 @@
                 "rem"
               ],
               "variableName": "row-gap",
+              "order": 42,
               "isCombo": true,
               "bpIndex": 0,
               "nextBp": 768,
@@ -1360,10 +1619,31 @@
             "grid-auto-fit": {
               "selector": ".card-grid",
               "minValues": [
-                21.43
+                100
               ],
               "maxValues": [
                 21.18
+              ],
+              "minUnits": [
+                "%"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "grid-auto-fit",
+              "order": 42,
+              "isCombo": true,
+              "bpIndex": 0,
+              "nextBp": 768,
+              "nextBpIndex": 1
+            },
+            "grid-template-rows": {
+              "selector": ".card-grid",
+              "minValues": [
+                17.68
+              ],
+              "maxValues": [
+                17.68
               ],
               "minUnits": [
                 "rem"
@@ -1371,7 +1651,8 @@
               "maxUnits": [
                 "rem"
               ],
-              "variableName": "grid-auto-fit",
+              "variableName": "grid-template-rows",
+              "order": 42,
               "isCombo": true,
               "bpIndex": 0,
               "nextBp": 768,
@@ -1397,6 +1678,7 @@
                 "rem"
               ],
               "variableName": "column-gap",
+              "order": 43,
               "isCombo": true,
               "bpIndex": 1,
               "bp": 1,
@@ -1418,6 +1700,7 @@
                 "rem"
               ],
               "variableName": "row-gap",
+              "order": 43,
               "isCombo": true,
               "bpIndex": 1,
               "bp": 1,
@@ -1451,6 +1734,171 @@
                 ]
               ],
               "variableName": "grid-auto-fit",
+              "order": 43,
+              "isCombo": true,
+              "bpIndex": 1,
+              "bp": 1,
+              "nextBp": 1200,
+              "nextBpIndex": 3
+            },
+            "grid-template-rows": {
+              "selector": ".card-grid",
+              "minValues": [
+                17.68
+              ],
+              "maxValues": [
+                20.12
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "grid-template-rows",
+              "order": 43,
+              "isCombo": true,
+              "bpIndex": 1,
+              "bp": 1,
+              "nextBp": 1200,
+              "nextBpIndex": 3
+            }
+          }
+        ]
+      ]
+    },
+    ".card__title": {
+      "__type__": "Map",
+      "value": [
+        [
+          0,
+          {
+            "margin-bottom": {
+              "selector": ".card__title",
+              "minValues": [
+                1
+              ],
+              "maxValues": [
+                1.5
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "margin-bottom",
+              "order": 47,
+              "isCombo": true,
+              "bpIndex": 0,
+              "nextBp": 1200,
+              "nextBpIndex": 3
+            },
+            "font-size": {
+              "selector": ".card__title",
+              "minValues": [
+                1.25
+              ],
+              "maxValues": [
+                1.5
+              ],
+              "minUnits": [
+                "em"
+              ],
+              "maxUnits": [
+                "em"
+              ],
+              "variableName": "font-size",
+              "order": 47,
+              "isCombo": true,
+              "bpIndex": 0,
+              "nextBp": 1200,
+              "nextBpIndex": 3
+            }
+          }
+        ]
+      ]
+    },
+    ".card--intro__title": {
+      "__type__": "Map",
+      "value": [
+        [
+          0,
+          {
+            "font-size": {
+              "selector": ".card--intro__title",
+              "minValues": [
+                1.5
+              ],
+              "maxValues": [
+                1.5
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "font-size",
+              "order": 49,
+              "isCombo": true,
+              "bpIndex": 0,
+              "nextBp": 768,
+              "nextBpIndex": 1
+            }
+          }
+        ],
+        [
+          1,
+          {
+            "font-size": {
+              "selector": ".card--intro__title",
+              "minValues": [
+                1.5
+              ],
+              "maxValues": [
+                2
+              ],
+              "minUnits": [
+                "rem"
+              ],
+              "maxUnits": [
+                "rem"
+              ],
+              "variableName": "font-size",
+              "order": 54,
+              "isCombo": true,
+              "bpIndex": 1,
+              "bp": 1,
+              "nextBp": 1200,
+              "nextBpIndex": 3
+            }
+          }
+        ]
+      ]
+    },
+    ".card__desc": {
+      "__type__": "Map",
+      "value": [
+        [
+          1,
+          {
+            "font-size": {
+              "selector": ".card__desc",
+              "minValues": [
+                1
+              ],
+              "maxValues": [
+                1.125
+              ],
+              "minUnits": [
+                "em"
+              ],
+              "maxUnits": [
+                "em"
+              ],
+              "variableName": "font-size",
+              "order": 53,
               "isCombo": true,
               "bpIndex": 1,
               "bp": 1,

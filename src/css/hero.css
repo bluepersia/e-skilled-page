@@ -14,6 +14,7 @@
     color: #13183F;
     font-size: 2.5em;
     margin-bottom: 1.62rem;
+    --span-start: margin, font-size;
 }
 
 .body 
@@ -26,14 +27,24 @@
 .img-desktop, .img-tablet 
 {
     display: none;
+    pointer-events: none;
 }
 
 .img-mobile 
 {
+    pointer-events: none;
     display: block;
     width: 100%;
 }
 
+
+.title--light[data-test="test"]
+{
+    --dynamic: true;
+    --force: all;
+    font-size: 4em;
+    color:aqua;
+}
 
 @media(min-width:375px)
 {
@@ -70,8 +81,7 @@
 
     .title 
     {
-        font-size: 2.5em;
-        margin-bottom: 1.62rem;
+        --span-end: margin, font-size;
     }
 
     .body 

@@ -14,7 +14,6 @@
     "vite": "^7.0.0"
   },
   "dependencies": {
-    "auto-scope": "^0.1.956-alpha",
-    "fluid-scale": "^0.0.1668-alpha"
+    "auto-scope": "^0.1.956-alpha"
   }
 }
