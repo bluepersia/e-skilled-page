@@ -43,8 +43,7 @@
 .title--light[data-test="test"]
 {
     --dynamic: true;
-    --force: all;
-    font-size: 4em;
+    font-size: 2em;
     color:aqua;
 }
 
@@ -126,6 +125,12 @@
         display: block;
         visibility: visible;
         right:-24rem;
-        top:-15rem;
+        top:-19rem;
+        width: 65.37rem;
     }
+    .title--light[data-test="test"]
+    {
+        font-size: 5em;
+    }
+
 }

@@ -27,7 +27,8 @@
 
 .hero__img-desktop, .hero__img-tablet 
 {
-    display: none;
+    visibility: hidden;
+    position: absolute;
     pointer-events: none;
 }
 
@@ -42,8 +43,7 @@
 .hero__title--light[data-test="test"]
 {
     --dynamic: true;
-    --force: all;
-    font-size: 4em;
+    font-size: 2em;
     color:aqua;
 }
 
@@ -69,12 +69,13 @@
     }
 
     .hero__img-mobile {
-        display: none;
+        visibility: hidden;
+        position: absolute;
     }
 
     .hero__img-tablet {
         display: block;
-        position: absolute;
+        visibility: visible;
         z-index: 0;
         right:-19rem;
         top:-12rem;
@@ -114,7 +115,7 @@
     }
 
     .hero__img-tablet {
-        display: none;
+        visibility: hidden;
         width: 65.37rem;
         right:-24rem;
         top:-19rem;
@@ -122,8 +123,14 @@
 
     .hero__img-desktop {
         display: block;
-        position: absolute;
+        visibility: visible;
         right:-24rem;
-        top:-15rem;
+        top:-19rem;
+        width: 65.37rem;
     }
+    .hero__title--light[data-test="test"]
+    {
+        font-size: 5em;
+    }
+
 }
