@@ -27,7 +27,8 @@
 
 .img-desktop, .img-tablet 
 {
-    display: none;
+    visibility: hidden;
+    position: absolute;
     pointer-events: none;
 }
 
@@ -69,12 +70,13 @@
     }
 
     .img-mobile {
-        display: none;
+        visibility: hidden;
+        position: absolute;
     }
 
     .img-tablet {
         display: block;
-        position: absolute;
+        visibility: visible;
         z-index: 0;
         right:-19rem;
         top:-12rem;
@@ -114,7 +116,7 @@
     }
 
     .img-tablet {
-        display: none;
+        visibility: hidden;
         width: 65.37rem;
         right:-24rem;
         top:-19rem;
@@ -122,7 +124,7 @@
 
     .img-desktop {
         display: block;
-        position: absolute;
+        visibility: visible;
         right:-24rem;
         top:-15rem;
     }
