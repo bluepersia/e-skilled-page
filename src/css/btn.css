@@ -8,6 +8,7 @@
     border-radius: 1.75rem;
     display: inline-block;
     font-weight: bold;
+    transition: padding 300ms;
 }
 
 .btn--bright
@@ -44,7 +45,7 @@
         padding: 1.1875rem 2rem;
     }
 
-    
+
 
 }
 
@@ -52,5 +53,6 @@
 {
     background: none;
     color: #F74780;
-    padding: min(0rem);
+    padding: 0;
+    --force: all;
 }

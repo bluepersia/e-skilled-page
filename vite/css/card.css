@@ -3,10 +3,14 @@
     font-size: 1rem;
     padding: 0 1.875rem 1.875rem;
     background-color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 .card__title 
 {
     font-size: 1.25em;
+    --span: 768;
     color: #13183F;
     margin-bottom: 1rem;
 }
@@ -38,4 +42,49 @@
     font-weight: 500;
     margin-bottom: 1.5rem;
     line-height: 1.6;
+}
+
+.card__btn
+{
+    display: block;
+    margin-top: auto;
+    justify-self: end;
+}
+
+@media(min-width: 375px){}
+
+@media(min-width:768px)
+{
+  
+    .card__desc {
+        font-size: 1em;
+    }
+
+    .card--intro__title 
+{
+    font-size:1.5rem; 
+}
+    
+}
+
+@media(min-width:1200px)
+{
+    .card__content 
+    {
+        padding: 4rem 2em 2.5em;
+    }
+    .card__title 
+    {
+        font-size: 1.5em;
+        margin-bottom: 1.5rem;
+    }
+
+    .card--intro__title 
+    {
+        font-size: 2rem;
+    }
+
+    .card__desc {
+        font-size: 1.125em;
+    }
 }

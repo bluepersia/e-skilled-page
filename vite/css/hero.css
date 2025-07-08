@@ -14,6 +14,7 @@
     color: #13183F;
     font-size: 2.5em;
     margin-bottom: 1.62rem;
+    --span-start: margin, font-size;
 }
 
 .hero__body 
@@ -26,14 +27,24 @@
 .hero__img-desktop, .hero__img-tablet 
 {
     display: none;
+    pointer-events: none;
 }
 
 .hero__img-mobile 
 {
+    pointer-events: none;
     display: block;
     width: 100%;
 }
 
+
+.hero__title--light[data-test="test"]
+{
+    --dynamic: true;
+    --force: all;
+    font-size: 4em;
+    color:aqua;
+}
 
 @media(min-width:375px)
 {
@@ -70,8 +81,7 @@
 
     .hero__title 
     {
-        font-size: 2.5em;
-        margin-bottom: 1.62rem;
+        --span-end: margin, font-size;
     }
 
     .hero__body 

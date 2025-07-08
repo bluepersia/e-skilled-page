@@ -10,6 +10,7 @@
 .title 
 {
     font-size: 1.25em;
+    --span: 768;
     color: #13183F;
     margin-bottom: 1rem;
 }
@@ -54,12 +55,7 @@
 
 @media(min-width:768px)
 {
-    .title 
-    {
-        font-size: 1.25em;
-        margin-bottom: 1rem;
-    }
-
+  
     .desc {
         font-size: 1em;
     }
