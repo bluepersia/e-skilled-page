@@ -3,7 +3,8 @@
     375,
     768,
     811,
-    1200
+    1200,
+    1440
   ],
   "fluidVariableSelectors": {
     ".skilled__header": {
@@ -930,8 +931,8 @@
               "order": 22,
               "isCombo": true,
               "bpIndex": 0,
-              "nextBp": 1200,
-              "nextBpIndex": 3
+              "nextBp": 1440,
+              "nextBpIndex": 4
             },
             "padding-bottom": {
               "selector": ".btn--text-only",
@@ -951,8 +952,8 @@
               "order": 22,
               "isCombo": true,
               "bpIndex": 0,
-              "nextBp": 1200,
-              "nextBpIndex": 3
+              "nextBp": 1440,
+              "nextBpIndex": 4
             },
             "padding-left": {
               "selector": ".btn--text-only",
@@ -972,8 +973,8 @@
               "order": 22,
               "isCombo": true,
               "bpIndex": 0,
-              "nextBp": 1200,
-              "nextBpIndex": 3
+              "nextBp": 1440,
+              "nextBpIndex": 4
             },
             "padding-right": {
               "selector": ".btn--text-only",
@@ -993,8 +994,8 @@
               "order": 22,
               "isCombo": true,
               "bpIndex": 0,
-              "nextBp": 1200,
-              "nextBpIndex": 3
+              "nextBp": 1440,
+              "nextBpIndex": 4
             }
           }
         ]
@@ -1637,21 +1638,23 @@
               "nextBp": 768,
               "nextBpIndex": 1
             },
-            "grid-auto-fit": {
+            "grid-template-columns": {
               "selector": ".card-grid",
               "minValues": [
                 100
               ],
               "maxValues": [
+                21.18,
                 21.18
               ],
               "minUnits": [
                 "%"
               ],
               "maxUnits": [
+                "rem",
                 "rem"
               ],
-              "variableName": "grid-auto-fit",
+              "variableName": "grid-template-columns",
               "order": 43,
               "isCombo": true,
               "bpIndex": 0,
@@ -1703,8 +1706,8 @@
               "isCombo": true,
               "bpIndex": 1,
               "bp": 1,
-              "nextBp": 1200,
-              "nextBpIndex": 3
+              "nextBp": 1440,
+              "nextBpIndex": 4
             },
             "row-gap": {
               "selector": ".card-grid",
@@ -1725,42 +1728,36 @@
               "isCombo": true,
               "bpIndex": 1,
               "bp": 1,
-              "nextBp": 1200,
-              "nextBpIndex": 3
+              "nextBp": 1440,
+              "nextBpIndex": 4
             },
-            "grid-auto-fit": {
+            "grid-template-columns": {
               "selector": ".card-grid",
               "minValues": [
+                21.18,
                 21.18
               ],
               "maxValues": [
-                [
-                  "min",
-                  [
-                    21.8,
-                    49.3
-                  ]
-                ]
+                21.18,
+                21.18,
+                21.18
               ],
               "minUnits": [
+                "rem",
                 "rem"
               ],
               "maxUnits": [
-                [
-                  "",
-                  [
-                    "rem",
-                    "%"
-                  ]
-                ]
+                "rem",
+                "rem",
+                "rem"
               ],
-              "variableName": "grid-auto-fit",
+              "variableName": "grid-template-columns",
               "order": 44,
               "isCombo": true,
               "bpIndex": 1,
               "bp": 1,
-              "nextBp": 1200,
-              "nextBpIndex": 3
+              "nextBp": 1440,
+              "nextBpIndex": 4
             },
             "grid-template-rows": {
               "selector": ".card-grid",
@@ -1781,8 +1778,8 @@
               "isCombo": true,
               "bpIndex": 1,
               "bp": 1,
-              "nextBp": 1200,
-              "nextBpIndex": 3
+              "nextBp": 1440,
+              "nextBpIndex": 4
             }
           }
         ]
