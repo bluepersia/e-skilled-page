@@ -15,6 +15,6 @@
   },
   "dependencies": {
     "auto-scope": "^0.1.956-alpha",
-    "fluid-scale": "^0.0.1673-alpha"
+    "fluid-scale": "^0.0.1674-alpha"
   }
 }
